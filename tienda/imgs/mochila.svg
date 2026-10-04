@@ -1,0 +1,8 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Mochila urbana</title>
+  <rect width="300" height="300" fill="#eef5ee"/>
+  <path d="M115 75 Q115 45 150 45 Q185 45 185 75" fill="none" stroke="#2e7d32" stroke-width="8"/>
+  <rect x="85" y="70" width="130" height="165" rx="30" fill="#2e7d32" stroke="#1b5e20" stroke-width="3"/>
+  <rect x="105" y="150" width="90" height="60" rx="10" fill="#43a047" stroke="#1b5e20" stroke-width="3"/>
+  <text x="150" y="268" text-anchor="middle" fill="#444444" font-family="Arial,Helvetica,sans-serif" font-size="16">Mochila</text>
+</svg>

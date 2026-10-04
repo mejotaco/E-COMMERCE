@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TiendaWeb · Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor barra">
+      <a class="logo" href="index.html">TiendaWeb</a>
+      <button class="menu-toggle" data-nav-toggle aria-expanded="false" aria-controls="menu-principal" type="button">☰ Menú</button>
+      <nav class="menu" aria-label="Navegación principal">
+        <ul id="menu-principal">
+          <li><a href="index.html" class="activo">Inicio</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li><a href="quienes-somos.html">Quiénes somos</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="carrito.html">Carrito (<span id="contador-carrito">0</span>)</a></li>
+          <li><a href="busqueda.html">Búsqueda</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <img class="banner" src="imgs/banner.svg" alt="Banner de TiendaWeb con ofertas de temporada">
+
+    <h1>¡Bienvenido a TiendaWeb!</h1>
+    <p class="lead">
+      Tu tienda en línea de moda y accesorios. Explora nuestro catálogo,
+      regístrate para recibir promociones y arma tu carrito de compra.
+    </p>
+
+    <h2>Productos y categorías destacadas</h2>
+    <ul class="destacados">
+      <li><a href="catalogo.html">Camisas</a> · estilos casuales y formales</li>
+      <li><a href="catalogo.html">Pantalones</a> · mezclilla y vestir</li>
+      <li><a href="catalogo.html">Calzado</a> · tenis para todos los días</li>
+      <li><a href="catalogo.html">Accesorios</a> · mochilas, gorras y relojes</li>
+    </ul>
+
+    <p>
+      <a class="btn" href="catalogo.html">Ver el catálogo completo</a>
+    </p>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>
+        Proyecto de Unidad · TiendaWeb ·
+        <a href="https://github.com/" target="_blank" rel="noopener">Repositorio en GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TiendaWeb · Quiénes somos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor barra">
+      <a class="logo" href="index.html">TiendaWeb</a>
+      <button class="menu-toggle" data-nav-toggle aria-expanded="false" aria-controls="menu-principal" type="button">☰ Menú</button>
+      <nav class="menu" aria-label="Navegación principal">
+        <ul id="menu-principal">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li><a href="quienes-somos.html" class="activo">Quiénes somos</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="carrito.html">Carrito (<span id="contador-carrito">0</span>)</a></li>
+          <li><a href="busqueda.html">Búsqueda</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <p class="eyebrow">Sección 3</p>
+    <h1>Quiénes somos</h1>
+    <p class="lead">
+      Somos un equipo de estudiantes que desarrolló esta tienda en línea
+      como proyecto de la unidad de aplicaciones web.
+    </p>
+
+    <h2>Integrantes del equipo</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Rol</th>
+          <th>Correo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sebastian Emiliano Anzueto Escobar</td>
+          <td>Líder de proyecto</td>
+          <td>sebastian@ejemplo.com</td>
+        </tr>
+        <tr>
+          <td>Manuel De Jesus Flores de la Cruz</td>
+          <td>Desarrollo front-end</td>
+          <td>manuel@ejemplo.com</td>
+        </tr>
+        <tr>
+          <td>Cesar Francisco Salazar Sanchez</td>
+          <td>Diseño y contenido</td>
+          <td>cesar@ejemplo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button type="button" id="btn-ver-mas" class="secundario" aria-expanded="false" aria-controls="info-extra">Ver más</button>
+
+    <div id="info-extra" class="panel oculto">
+      <h3>Más sobre el proyecto</h3>
+      <p>
+        TiendaWeb es un sitio de demostración hecho con HTML, CSS y JavaScript,
+        sin librerías externas. Los productos, el carrito y los registros no se
+        guardan de manera real.
+      </p>
+      <p>
+        El sitio está publicado en línea con GitHub Pages. Puedes consultar el
+        código fuente en el
+        <a href="https://github.com/" target="_blank" rel="noopener">repositorio del equipo</a>.
+      </p>
+    </div>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>
+        Proyecto de Unidad · TiendaWeb ·
+        <a href="https://github.com/" target="_blank" rel="noopener">Repositorio en GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

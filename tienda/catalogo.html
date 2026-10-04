@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TiendaWeb · Catálogo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor barra">
+      <a class="logo" href="index.html">TiendaWeb</a>
+      <button class="menu-toggle" data-nav-toggle aria-expanded="false" aria-controls="menu-principal" type="button">☰ Menú</button>
+      <nav class="menu" aria-label="Navegación principal">
+        <ul id="menu-principal">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li><a href="quienes-somos.html">Quiénes somos</a></li>
+          <li><a href="catalogo.html" class="activo">Catálogo</a></li>
+          <li><a href="carrito.html">Carrito (<span id="contador-carrito">0</span>)</a></li>
+          <li><a href="busqueda.html">Búsqueda</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <p class="eyebrow">Sección 4</p>
+    <h1>Catálogo de productos</h1>
+    <p class="lead">Elige tus favoritos y agrégalos al carrito.</p>
+
+    <p id="mensaje-catalogo" class="oculto" role="status" aria-live="polite"></p>
+
+    <div class="grid-productos">
+
+      <article class="producto" data-nombre="Camisa casual">
+        <img src="imgs/camisa.svg" alt="Camisa casual azul">
+        <h3>Camisa casual</h3>
+        <p class="precio">$249.00</p>
+        <button type="button" class="btn-agregar">Agregar al carrito</button>
+      </article>
+
+      <article class="producto" data-nombre="Pantalón de mezclilla">
+        <img src="imgs/pantalon.svg" alt="Pantalón de mezclilla">
+        <h3>Pantalón de mezclilla</h3>
+        <p class="precio">$499.00</p>
+        <button type="button" class="btn-agregar">Agregar al carrito</button>
+      </article>
+
+      <article class="producto" data-nombre="Tenis deportivos">
+        <img src="imgs/tenis.svg" alt="Tenis deportivos">
+        <h3>Tenis deportivos</h3>
+        <p class="precio">$899.00</p>
+        <button type="button" class="btn-agregar">Agregar al carrito</button>
+      </article>
+
+      <article class="producto" data-nombre="Mochila urbana">
+        <img src="imgs/mochila.svg" alt="Mochila urbana">
+        <h3>Mochila urbana</h3>
+        <p class="precio">$349.00</p>
+        <button type="button" class="btn-agregar">Agregar al carrito</button>
+      </article>
+
+      <article class="producto" data-nombre="Gorra clásica">
+        <img src="imgs/gorra.svg" alt="Gorra clásica">
+        <h3>Gorra clásica</h3>
+        <p class="precio">$129.00</p>
+        <button type="button" class="btn-agregar">Agregar al carrito</button>
+      </article>
+
+      <article class="producto" data-nombre="Reloj de pulsera">
+        <img src="imgs/reloj.svg" alt="Reloj de pulsera">
+        <h3>Reloj de pulsera</h3>
+        <p class="precio">$699.00</p>
+        <button type="button" class="btn-agregar">Agregar al carrito</button>
+      </article>
+
+    </div>
+
+    <p><a class="btn" href="carrito.html">Ir al carrito</a></p>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>
+        Proyecto de Unidad · TiendaWeb ·
+        <a href="https://github.com/" target="_blank" rel="noopener">Repositorio en GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

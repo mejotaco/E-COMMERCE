@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TiendaWeb · Búsqueda de productos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor barra">
+      <a class="logo" href="index.html">TiendaWeb</a>
+      <button class="menu-toggle" data-nav-toggle aria-expanded="false" aria-controls="menu-principal" type="button">☰ Menú</button>
+      <nav class="menu" aria-label="Navegación principal">
+        <ul id="menu-principal">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li><a href="quienes-somos.html">Quiénes somos</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="carrito.html">Carrito (<span id="contador-carrito">0</span>)</a></li>
+          <li><a href="busqueda.html" class="activo">Búsqueda</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <p class="eyebrow">Sección 6</p>
+    <h1>Búsqueda de productos</h1>
+    <p class="lead">Escribe lo que buscas, por ejemplo: camisas.</p>
+
+    <form id="form-busqueda" action="#" method="get">
+      <label for="texto-busqueda">Producto a buscar</label>
+      <div class="fila-busqueda">
+        <input type="search" id="texto-busqueda" name="q" placeholder="Ej. camisas">
+        <button type="submit">Buscar</button>
+      </div>
+    </form>
+
+    <section id="resultados" aria-live="polite">
+      <h2 id="titulo-resultados">Aquí aparecerán los resultados.</h2>
+
+      <ul id="lista-resultados" class="lista-resultados oculto">
+        <li><strong>Camisa casual</strong> · $249.00</li>
+        <li><strong>Pantalón de mezclilla</strong> · $499.00</li>
+        <li><strong>Tenis deportivos</strong> · $899.00</li>
+        <li><strong>Mochila urbana</strong> · $349.00</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>
+        Proyecto de Unidad · TiendaWeb ·
+        <a href="https://github.com/" target="_blank" rel="noopener">Repositorio en GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

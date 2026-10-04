@@ -1,0 +1,10 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Reloj de pulsera</title>
+  <rect width="300" height="300" fill="#f5f2e8"/>
+  <rect x="125" y="30" width="50" height="240" rx="10" fill="#5d4037" stroke="#3e2723" stroke-width="3"/>
+  <circle cx="150" cy="150" r="72" fill="#ffffff" stroke="#3e2723" stroke-width="6"/>
+  <line x1="150" y1="150" x2="150" y2="105" stroke="#222222" stroke-width="5"/>
+  <line x1="150" y1="150" x2="185" y2="165" stroke="#222222" stroke-width="4"/>
+  <circle cx="150" cy="150" r="6" fill="#222222"/>
+  <text x="150" y="292" text-anchor="middle" fill="#444444" font-family="Arial,Helvetica,sans-serif" font-size="16">Reloj</text>
+</svg>

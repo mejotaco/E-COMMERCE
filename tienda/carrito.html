@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TiendaWeb · Carrito de compra</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor barra">
+      <a class="logo" href="index.html">TiendaWeb</a>
+      <button class="menu-toggle" data-nav-toggle aria-expanded="false" aria-controls="menu-principal" type="button">☰ Menú</button>
+      <nav class="menu" aria-label="Navegación principal">
+        <ul id="menu-principal">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li><a href="quienes-somos.html">Quiénes somos</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="carrito.html" class="activo">Carrito (<span id="contador-carrito">0</span>)</a></li>
+          <li><a href="busqueda.html">Búsqueda</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <p class="eyebrow">Sección 5</p>
+    <h1>Carrito de compra</h1>
+    <p class="lead">Modifica las cantidades y el total se recalcula automáticamente.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th class="num">Precio</th>
+          <th>Cantidad</th>
+          <th class="num">Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Camisa casual</td>
+          <td class="num">$249.00</td>
+          <td><input type="text" class="cantidad" inputmode="numeric" maxlength="3" value="1" data-precio="249" aria-label="Cantidad de camisas"></td>
+          <td class="num subtotal">$249.00</td>
+        </tr>
+        <tr>
+          <td>Tenis deportivos</td>
+          <td class="num">$899.00</td>
+          <td><input type="text" class="cantidad" inputmode="numeric" maxlength="3" value="1" data-precio="899" aria-label="Cantidad de tenis"></td>
+          <td class="num subtotal">$899.00</td>
+        </tr>
+        <tr>
+          <td>Gorra clásica</td>
+          <td class="num">$129.00</td>
+          <td><input type="text" class="cantidad" inputmode="numeric" maxlength="3" value="2" data-precio="129" aria-label="Cantidad de gorras"></td>
+          <td class="num subtotal">$258.00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="total">Total: <span id="total-carrito">$1,406.00</span></p>
+
+    <p class="ayuda">Los cuadros de cantidad solo aceptan números. Este carrito es de demostración.</p>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>
+        Proyecto de Unidad · TiendaWeb ·
+        <a href="https://github.com/" target="_blank" rel="noopener">Repositorio en GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

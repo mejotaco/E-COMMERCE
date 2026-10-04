@@ -1,0 +1,8 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Gorra clásica</title>
+  <rect width="300" height="300" fill="#f5eef5"/>
+  <path d="M70 175 Q70 80 150 80 Q230 80 230 175 Z" fill="#6a1b9a" stroke="#4a148c" stroke-width="3"/>
+  <path d="M60 175 L260 175 Q270 190 240 195 L90 195 Q55 192 60 175 Z" fill="#8e24aa" stroke="#4a148c" stroke-width="3"/>
+  <circle cx="150" cy="80" r="8" fill="#4a148c"/>
+  <text x="150" y="268" text-anchor="middle" fill="#444444" font-family="Arial,Helvetica,sans-serif" font-size="16">Gorra</text>
+</svg>
